@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+.fundo {
+    background-image: linear-gradient(45deg, black, green);
+    height: 46vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculadora {
+    text-align: center;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+p{
+    background-color: white;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+button {
+    margin: 1px;
+    background-color: rgb(31, 31, 31);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+button:hover {
+    background-color: black;
+}
+.zero {
+    width: 83px;
+}
+.igual {
+    height: 83px;
+}
+
+#resultado {
+    background-color: white;
+    width: 172px;
+    height: 30px;
+    margin: 2px;
+    font-size: 24px;
+    color: black;
+    text-align: right;
+}

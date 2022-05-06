@@ -1,0 +1,110 @@
+* {
+    margin:0;
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(212, 212, 212);  
+}
+.linha {
+    clear: both;
+}
+.faixa {
+    background-color: rgb(21, 47, 88);
+    color: white;
+    height: 150px;
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+.campotabela {
+	background-color: white;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+#grupo {
+    text-align: left;
+}
+#quantgols {
+    width: 5%;
+    text-align: center;
+}
+#tituloclubes {
+    text-align: left;
+}
+#clubes {
+    text-align: left;
+    width: 50%;
+}
+td {
+    text-align: center;
+}
+.ultimosjogos {
+    width: 17%;
+}
+.classificado {
+    padding-left: 5px;
+    border-left: solid 2px blue;
+}
+.repescagem {
+    padding-left: 5px;
+    border-left: solid 2px orangered;
+}
+.logo {
+    width: 3%;
+    text-align: left;
+}
+table.placarresult {
+    text-align: left;
+    width: 50%;
+    float: left;
+    border: solid 1px rgb(212, 212, 212);
+}
+td.resulttotal {
+    text-align: left;
+    padding-left: 30px;
+}
+table.placarresulte {
+    text-align: left;
+    width: 50%;
+    border: solid 1px rgb(212, 212, 212);
+}
+.oitavas {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    
+}
+.passou:before {
+    content: "";
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid black;
+}
+h1 {
+    padding: 15px 0px 0px 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a, a:link, a:hover a:visited {
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    padding-left: 21%;
+    padding-right: 21%;
+    text-align: center;
+}
+#itemMenu {
+    float: left;
+    width: 11.5%;
+    padding-top: 50px;
+}
